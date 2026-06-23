@@ -2,6 +2,10 @@
 
 A production NFL Survivor pool platform. Players join a pool, pick one team to win each week, and get eliminated when their pick loses. Last entry standing takes the pot.
 
+![SundaySurvivor pick matrix: multiple entries across an 18-week grid with live pick deadline](screenshot-pickmatrix.png)
+
+*Player view: managing multiple entries across the season, with a live lock countdown and alive/eliminated tracking.*
+
 I built and operate this as a real, paying product running live pools during the NFL season. This repo is a public write-up of the project for reference. **The source code is private.**
 
 The whole thing was built by directing [Claude Code](https://claude.com/claude-code). I architected the product, made the engineering and product calls, and drove the implementation through the agent. It's how I describe my work everywhere: I'm the operator and the decision-maker, the AI is the tool.
