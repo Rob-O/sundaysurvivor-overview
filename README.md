@@ -2,6 +2,8 @@
 
 A production NFL Survivor pool platform. Players join a pool, pick one team to win each week, and get eliminated when their pick loses. Last entry standing takes the pot.
 
+**Live at [sundaysurvivor.com](https://sundaysurvivor.com)**
+
 ![SundaySurvivor pick matrix: multiple entries across an 18-week grid with live pick deadline](screenshot-pickmatrix.png)
 
 *Player view: managing multiple entries across the season, with a live lock countdown and alive/eliminated tracking.*
