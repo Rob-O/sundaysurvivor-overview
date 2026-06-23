@@ -55,15 +55,16 @@ It's a single TypeScript codebase split into `client/`, `server/`, and `shared/`
 ## Feature set
 
 **Players**
-- Join a pool by link, register an entry, and pay upfront via Stripe
+- Join a pool by link and register one or more entries
 - Make weekly picks with a live deadline countdown and instant feedback
 - Live leaderboard and standings that update as games finish
 - Per-entry history, elimination status, and past-season archives
 - Account management, password reset, email preferences with one-click unsubscribe
 
 **Commissioners**
-- Create and configure a pool (entry fee, tiered pricing, pick rules, deadlines, double-pick weeks)
-- Admin dashboard for members, entries, payments, and announcements
+- Create and configure a pool (pick rules, deadlines, double-pick weeks)
+- Pay upfront via Stripe to run the pool, with tiered pricing based on entry count
+- Admin dashboard for members, entries, and announcements
 - Grade weeks and set scores, triggering eliminations and notifications
 - AI-generated weekly recap emails to the whole pool
 
