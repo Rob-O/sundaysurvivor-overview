@@ -80,4 +80,4 @@ It's a single TypeScript codebase split into `client/`, `server/`, and `shared/`
 
 ## Notes
 
-The source repository is private. This README exists to give a real picture of the architecture and scope behind the project. Happy to walk through any part of it.
+The source repository is private. This README exists to give a real picture of the architecture and scope behind the project.
