@@ -2,7 +2,7 @@
 
 A production NFL Survivor pool platform. Players join a pool, pick one team to win each week, and get eliminated when their pick loses. Last entry standing takes the pot.
 
-**Live at [sundaysurvivor.com](https://sundaysurvivor.com)**
+**Live at [sundaysurvivor.com](https://sundaysurvivor.com/?utm_source=github&utm_medium=referral&utm_campaign=overview-repo)**
 
 ![SundaySurvivor pick matrix: multiple entries across an 18-week grid with live pick deadline](screenshot-pickmatrix.png)
 
@@ -71,7 +71,7 @@ It's a single TypeScript codebase split into `client/`, `server/`, and `shared/`
 - AI-generated weekly recap emails to the whole pool
 
 **Platform**
-- Rate limiting on anonymous traffic, Helmet security headers, session-based auth
+- Rate limiting and abuse protection, Helmet security headers, session-based auth
 - Audit logging of significant actions
 - Error monitoring and email deliverability webhooks
 - Separate dev/prod databases and a seed pipeline that preserves real data
